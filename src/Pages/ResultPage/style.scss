@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 10px auto;
+}
+.home-page {
+    text-align: center;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+
+    &>.content {   
+        text-align: left; 
+        &>button {
+            margin-top: 20px;
+        }
+    }
+}
