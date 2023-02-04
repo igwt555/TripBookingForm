@@ -1,13 +1,14 @@
 import './style.scss';
-import CityInput from '../../components/CityInput';
-import { useState } from 'react';
 
-function Home() {
+function ResultPage() {
 	return (
-		<div>
-
+		<div className='content'>
+			<h1>Trip Course and Distance</h1>
+			<div>
+				asdfasfdasdfasf
+			</div>
 		</div>
 	);
 }
 
-export default Home;
+export default ResultPage;

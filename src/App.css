@@ -1,5 +1,6 @@
 body {
   background: #0e101c;
+  color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -24,11 +25,11 @@ h1 {
   margin: 0 auto;
 }
 
-p {
+.warning {
   color: #bf1650;
 }
 
-p::before {
+.warning::before {
   display: inline;
   content: "⚠ ";
 }
