@@ -14,7 +14,6 @@ export default function HomePage() {
     const {
         register,
         handleSubmit,
-        formState: { }
     } = useForm<FormValues>({
     });
 
